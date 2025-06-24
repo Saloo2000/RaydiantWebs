@@ -1,20 +1,34 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import './index.css'; // Adjust the path as needed
 import HomePage from './pages/HomePage';
 import AppLayout from './Components/AppLayout';
 import Service from './pages/Service';
 
+
+
+const router = createBrowserRouter([
+  {
+    element:<AppLayout />,
+    children:[
+      {
+        path: '/',
+        element: <HomePage />
+      },
+      {
+        path: '/service',
+        element:<Service/>
+      }
+    ],
+    
+  }
+],
+{
+  basename: "/RaydiantWebs"  // <-- Add your base path here
+})
+
 function App() {
-  return (
-    <BrowserRouter basename="/RaydiantWebs"> {/* Set your base path here */}
-      <Routes>
-        <Route path="/" element={<AppLayout />}>
-          {/* Nested routes for pages */}
-          <Route index element={<HomePage />} />
-          <Route path="service" element={<Service />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

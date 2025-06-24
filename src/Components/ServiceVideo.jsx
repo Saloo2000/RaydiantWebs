@@ -2,7 +2,7 @@ import React from 'react'
 import v1 from "/video-5.mp4";
 function ServiceVideo() {
   return (
-    <div className='relative w-full h-[90vh] overflow-hidden mb-[8vw]'>
+    <div className='relative w-full h-[120vh] overflow-hidden mb-[8vw]'>
         <div className='w-full h-full bg-black absolute z-20 opacity-[.5]' ></div>
        <div className='absolute top-1/2 left-1/2 z-30 text-center text-white -translate-x-1/2 -translate-y-1/2'>
          <h2 className='text-[150px] font-nova leading-[7vw] mb-[2vw]'>Have <br /> an Idea?</h2>

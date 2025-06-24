@@ -11,7 +11,7 @@ function WorkSpace() {
     <div className='py-16 flex flex-col items-center justify-center px-[32px] font-instrumentSans antialiased'>
 
     <div>
-    <h2 className='font-instrument text-center text-[75px] leading-[4.5vw]'>We are a design and technology company <br /> helping brands unlock their full potential.</h2>    
+    <h2 className='font-gallient text-center text-[75px] leading-[4.5vw]'>We are a design and technology company <br /> helping brands unlock their full potential.</h2>    
     <div className='text-center my-10'>
     <a href="#" className='uppercase bg-black text-[18px] w-fit text-white px-10 py-3 rounded-full'>View All Work</a>
     </div>

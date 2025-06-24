@@ -26,6 +26,17 @@ function ServicesRow() {
         </div>
         </div>
 
+          <div className='border-t border-[#f2f2f2] py-[5vw] flex justify-between '>
+        <h3 className='font-instrumentSans text-[20px] font-semibold'>Web and CMS Development</h3>
+        <div className='w-2/5 flex flex-col justify-start'>
+            <p className='text-[26px]'>
+          development process integrates developers and strategists, ensuring  solutions that are efficient, user-friendly, and tailored to meet  needs.</p>
+             <div className='w-fit mt-10 border-white border-[1px] text-[18px] text-white px-10 py-3 rounded-full'>
+            <a href="#" className='uppercase text-[1.5vw]'>Read More</a>
+            </div>
+        </div>
+        </div>
+
                         <div className='border-t border-[#f2f2f2] py-[5vw] flex justify-between '>
         <h3 className='font-instrumentSans text-[20px] font-semibold'>Corporate Branding</h3>
         <div className='w-2/5 flex flex-col justify-start'>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { GoArrowLeft } from "react-icons/go";
 import { GoArrowRight } from "react-icons/go";
+import { Link } from 'react-router-dom';
 
 function EstimateFrom() {
   return (
@@ -53,7 +54,7 @@ function EstimateFrom() {
       </div>
       
      <div className='flex gap-3 items-center'>
-       <a className='bg-black text-[16px] flex gap-6 items-center py-4 px-8 rounded-lg' href="/RaydiantWebs/contact"><GoArrowLeft size={25}/> Back</a>
+       <Link className='bg-black text-[16px] flex gap-6 items-center py-4 px-8 rounded-lg' to="/contact"><GoArrowLeft size={25}/> Back</Link>
        <button className='bg-white text-black text-[16px] flex gap-6 items-center py-4 px-8 rounded-lg' type="submit">Send Message <GoArrowRight size={25}/> </button>
      </div>
 

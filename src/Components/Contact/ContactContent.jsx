@@ -1,5 +1,6 @@
 import React from 'react'
 import { GoArrowRight, GoX } from "react-icons/go";
+import { Link } from 'react-router-dom';
 
 function ContactContent() {
   return (
@@ -28,9 +29,9 @@ function ContactContent() {
                     Details about the project
                 </li>
             </ul>
-           <a href="/RaydiantWebs/contact/estimation">
+           <Link to="/contact/estimation">
              <div className='bg-white text-black text-[18px] font-helvetica px-6 py-3 rounded-lg mt-[3vw] w-fit flex items-center gap-8'>Start Estimation <GoArrowRight/></div>
-           </a>
+           </Link>
         </div>
     </div>
   )
